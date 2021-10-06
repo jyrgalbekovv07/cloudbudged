@@ -1,0 +1,229 @@
+@media (max-width: 1200px) {
+   /*from 993px to 1200px*/
+    .container {
+        max-width: 960px;
+    }
+    .help-text {
+        max-width: 420px;
+    }
+    .about-img {
+        max-width: 290px;
+    }
+    .about-title {
+        max-width: 260px;
+    }
+    .about-h3 {
+        max-width: 200px;
+    }
+    .about-text-img {
+        padding: 0 15px;
+
+    }
+    .why-text {
+        max-width: 340px;
+    }
+    .contact-input {
+        width: 220px;
+        margin: 0;
+    }
+    .contact-input-0 {
+        width: 220px;
+        margin-left: 20px;
+    }
+    .contact-input-1 {
+        width: 465px;
+    }
+    .contact-input-2 {
+        width: 465px;
+    }
+}
+@media (max-width: 993px) {
+    /*from 768px to 993px*/
+    .container {
+        max-width: 740px;
+    }
+    .col-4 {
+        width: 100%;
+        align-items: center;
+    }
+    .col-3 {
+        width: 50%;
+    }
+    .logo-img-0 {
+        width: 21px;
+    }
+    .logo-title {
+        font-size: 15px;
+    }
+    .nav-logo-ul li {
+        font-size: 9px;
+    }
+    .logo-img-usa {
+        width: 25px;
+    }
+    .logo-en {
+        font-size: 12px;
+    }
+    .logo-button {
+        padding: 6px 16px 6px;
+        font-size: 9px;
+        margin-right: 5px;
+    }
+    .block-h1 {
+        padding: 65px 0 0;
+        font-size: 55px;
+    }
+    .block-text {
+        font-size: 16px;
+        max-width: 340px;
+    }
+    .block-button {
+        margin-bottom: 80px;
+    }
+    .help-title {
+        padding: 90px 0 60px;
+    }
+    .help-h2 {
+        font-size: 23px;
+        margin-bottom: 25px;
+    }
+    .help-text {
+        max-width: 300px;
+    }
+    .video-help {
+        max-width: 370px;
+        padding: 0;
+    }
+    .about-h2 {
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+    .about-title {
+        margin: 0 auto 160px;
+    }
+    .services-h3 {
+        font-size: 30px;
+        padding: 54px 0 48px;
+    }
+    .services-title {
+        margin: 0 auto 20px;
+    }
+    .why-h2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+    .why-text {
+        font-size: 14px;
+        max-width: 310px;
+    }
+    .why-photo {
+        width: 110px;
+    }
+    .why-url {
+        width: 340px;
+    }
+    .why-url-1 {
+        width: 280px;
+        left: -20px;
+    }
+    .why-url-2 {
+        width: 280px;
+        left: 80px;
+    }
+    .why-title {
+        padding: 98px 0 83px;
+    }
+    .contact {
+        padding: 79px 0 57px;
+    }
+    .contact-my {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .contact-text {
+        max-width: 320px;
+    }
+    .contact-input {
+        width: 170px;
+        font-size: 12px;
+        height: 50px;
+    }
+    .contact-input-0 {
+        width: 170px;
+        font-size: 12px;
+        height: 50px;
+    }
+    .contact-input-1 {
+        width: 365px;
+        height: 50px;
+        font-size: 12px;
+    }
+    .contact-input-2 {
+        width: 365px;
+        height: 50px;
+        font-size: 12px;
+    }
+    .contact-button {
+        font-size: 12px;
+        padding: 12px 24px 12px;
+    }
+    .header {
+        padding: 40px 0 40px;
+    }
+    .header-title {
+        padding: 30px;
+    }
+    .header-text {
+        margin-bottom: 80px;
+    }
+
+
+
+
+    }
+
+@media (max-width: 768px) {
+    /*from 576px to 768px*/
+    .container {
+        max-width: 540px;
+    }
+    .logo-img-0 {
+        width: 16px;
+    }
+    .logo-title {
+        font-size: 12px;
+    }
+    .nav-logo-ul li {
+            font-size: 6px;
+    }
+    .logo-img-usa {
+        width: 16px;
+    }
+    .logo-en {
+        font-size: 9px;
+    }
+    .logo-img-1 {
+        padding-right: 16px;
+        width: 25px;
+    }
+    .logo-button {
+        padding: 4px 9px 4px;
+        font-size: 7px;
+        margin: 0;
+    }
+    .block-h1 {
+        padding: 33px 0 0;
+        font-size: 50px;
+    }
+    .block-text {
+        font-size: 14px;
+        max-width: 300px;
+    }
+    .block-button {
+        margin-bottom: 60px;
+        padding: 14px 41px 14px;
+    }
+}
+@media (max-width: 576px) {
+    /*from 320px to 576px*/
+}
