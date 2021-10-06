@@ -9,7 +9,7 @@ body {
 }
 a {
     text-decoration: none;
-    color: white;
+    color: red;
 }
 .row {
     display: flex;
