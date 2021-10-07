@@ -39,6 +39,12 @@
 }
 @media (max-width: 993px) {
     /*from 768px to 993px*/
+    .nav-logo-ul, .logo-img {
+        display: none;
+    }
+    .menu-burger {
+        display: block;
+    }
     .container {
         max-width: 740px;
     }
@@ -48,26 +54,6 @@
     }
     .col-3 {
         width: 50%;
-    }
-    .logo-img-0 {
-        width: 21px;
-    }
-    .logo-title {
-        font-size: 15px;
-    }
-    .nav-logo-ul li {
-        font-size: 9px;
-    }
-    .logo-img-usa {
-        width: 25px;
-    }
-    .logo-en {
-        font-size: 12px;
-    }
-    .logo-button {
-        padding: 6px 16px 6px;
-        font-size: 9px;
-        margin-right: 5px;
     }
     .block-h1 {
         padding: 65px 0 0;
@@ -144,22 +130,22 @@
         max-width: 320px;
     }
     .contact-input {
-        width: 170px;
+        width: 160px;
         font-size: 12px;
         height: 50px;
     }
     .contact-input-0 {
-        width: 170px;
+        width: 160px;
         font-size: 12px;
         height: 50px;
     }
     .contact-input-1 {
-        width: 365px;
+        width: 345px;
         height: 50px;
         font-size: 12px;
     }
     .contact-input-2 {
-        width: 365px;
+        width: 345px;
         height: 50px;
         font-size: 12px;
     }
@@ -181,7 +167,6 @@
 
 
     }
-
 @media (max-width: 768px) {
     /*from 576px to 768px*/
     .container {
@@ -223,7 +208,306 @@
         margin-bottom: 60px;
         padding: 14px 41px 14px;
     }
-}
+    .help-title {
+        padding: 70px 0 40px;
+    }
+    .help-h2 {
+        font-size: 18px;
+        line-height: 37px;
+    }
+    .help-text {
+        max-width: 220px;
+        font-size: 12px;
+    }
+    .help-text-2 {
+        font-size: 12px;
+    }
+    .help-img {
+        padding: 65px 0 0;
+    }
+    .video-help {
+        max-width: 270px;
+    }
+    .help-img-play {
+        top: 18px;
+        left: 22px;
+        width: 12px;
+    }
+    .help-play {
+        top: 131px;
+        width: 52px;
+        height: 52px;
+        left: -25px;
+    }
+    .about {
+        padding: 40px 0 0
+    }
+    .about-h2 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .services-h3 {
+        font-size: 25px;
+        padding: 41px 0 41px;
+    }
+    .why-title {
+        padding: 76px 0 62px;
+    }
+    .why-h2 {
+        max-width: 240px;
+        font-size: 25px;
+        margin-bottom: 18px;
+    }
+    .why-text {
+        font-size: 12px;
+        max-width: 220px;
+        margin-bottom: 30px;
+    }
+    .why-photo {
+        width: 80px;
+    }
+    .why-url {
+        width: 250px;
+    }
+    .why-url-1 {
+        width: 220px;
+        left: -17px;
+        top: 106px;
+    }
+    .why-url-2 {
+        width: 220px;
+        left: 47px;
+        top: 106px;
+    }
+    .contact {
+        padding: 67px 0 40px;
+    }
+    .contact-my {
+        font-size: 26px;
+        margin-bottom: 36px;
+    }
+    .contact-text {
+        max-width: 190px;
+        font-size: 12px
+    }
+    .contact-input {
+        width: 120px;
+        font-size: 9px;
+        height: 45px;
+        margin-right: 10px;
+    }
+    .contact-input-0 {
+        width: 120px;
+        font-size: 9px;
+        height: 45px;
+        margin-left: 0;
+    }
+    .contact-input-1 {
+        width: 255px;
+        height: 45px;
+        font-size: 9px;
+    }
+    .contact-input-2 {
+        width: 255px;
+        height: 45px;
+        font-size: 9px;
+    }
+    .contact-button {
+        font-size: 9px;
+        padding: 10px 20px 10px;
+    }
+    .header-text-1 {
+        display: none;
+    }
+    .header-text-2 {
+        display: block;
+    }
+
+
+
+    }
 @media (max-width: 576px) {
     /*from 320px to 576px*/
+    .col-6 {
+        width: 100%;
+    }
+    .col-3 {
+        width: 100%;
+    }
+    .container {
+        max-width: 315px;
+    }
+    .logo-title {
+        font-size: 11px;
+    }
+    .logo-img-0 {
+        width: 13px;
+    }
+    .menu-burger {
+        width: 20px;
+        height: 20px;
+    }
+    .block-h1 {
+        padding: 13px 0 0;
+        font-size: 33px;
+        margin-bottom: 29px;
+    }
+    .block-text {
+        font-size: 12px;
+        max-width: 260px;
+    }
+    .block-button {
+        margin-bottom: 50px;
+        padding: 9px 24px 9px;
+        font-size: 10px;
+    }
+    .help-title {
+        padding: 47px 0 35px;
+    }
+    .help-h2 {
+        margin: 0 auto 30px;
+        text-align: center;
+        font-size: 13px;
+        line-height: 25px;
+        max-width: 200px;
+    }
+    .help-text {
+        text-align: center;
+        font-size: 11px;
+        margin: 0 auto 30px;
+    }
+    .help-text-2 {
+        font-size: 10px;
+        text-align: center;
+    }
+    .help-img {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .help-play {
+        display: none;
+    }
+    .video-help {
+        width: 200px;
+        padding: 0 0 25px;
+    }
+    .about {
+        padding: 25px 0 0;
+    }
+    .about-title {
+        display: flex;
+        justify-content: center;
+        padding: 0 0 30px;
+    }
+    .about-h2 {
+        font-size: 19px;
+    }
+    .about-img {
+        width: 210px;
+    }
+    .about-text {
+        max-width: 190px;
+        top: 103px;
+        left: 35px;
+    }
+    .about-h3 {
+        font-size: 12px;
+        max-width: 140px;
+        padding: 0 0 15px;
+    }
+    .about-text-img {
+        font-size: 10px;
+    }
+    .about-text-red {
+        font-size: 8px;
+    }
+    .services-title {
+        margin: 0 auto 35px;
+    }
+    .services-h3 {
+        font-size: 24px;
+        padding: 33px 0 17px;
+    }
+    .services-h4 {
+        font-size: 15px;
+        padding: 15px 0 10px;
+    }
+    .services-text {
+        font-size: 10px;
+    }
+    .why-title {
+        padding: 55px 0 30px;
+        text-align: center;
+    }
+    .why-h2 {
+        margin: 0 auto 30px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 25px;
+        max-width: 180px;
+    }
+    .why-text {
+        text-align: center;
+        font-size: 11px;
+        margin: 0 auto 30px;
+    }
+    .why-photo {
+        width: 70px;
+    }
+    .why-img {
+        padding: 25px 0 185px;
+    }
+    .why-url {
+        width: 220px;
+        left: 35px;
+    }
+    .why-url-1 {
+        width: 180px;
+        left: 17px;
+        top: 41px;
+    }
+    .why-url-2 {
+        width: 180px;
+        left: 92px;
+        top: 41px;
+    }
+    .contact {
+        text-align: center;
+        padding: 45px 0 35px;
+    }
+    .contact-my {
+        font-size: 23px;
+        margin-bottom: 18px;
+    }
+    .contact-text {
+        font-size: 11px;
+        text-align: center;
+        margin: 0 auto 20px;
+    }
+    .header {
+        text-align: center;
+        padding: 20px 0 40px;
+    }
+    .header-text-1 {
+        display: none;
+    }
+    .header-h3 {
+        font-size: 15px;
+    }
+    .header-text {
+        margin:0 auto 20px;
+    }
+    .header-photo {
+        width: 180px;
+    }
+    .header-text-2 {
+        display: block;
+    }
+
+
+
+
+
+
 }
