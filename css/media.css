@@ -39,6 +39,9 @@
 }
 @media (max-width: 993px) {
     /*from 768px to 993px*/
+    header {
+        background: url("../images/Bg.png") center/cover;
+    }
     .nav-logo-ul, .logo-img {
         display: none;
     }
@@ -169,6 +172,9 @@
     }
 @media (max-width: 768px) {
     /*from 576px to 768px*/
+    header {
+        background: url("../images/Bg.png") center/cover;
+    }
     .container {
         max-width: 540px;
     }
@@ -328,6 +334,9 @@
     }
 @media (max-width: 576px) {
     /*from 320px to 576px*/
+    header {
+        background: url("../images/Bg.png") center/cover;
+    }
     .col-6 {
         width: 100%;
     }
@@ -335,7 +344,7 @@
         width: 100%;
     }
     .container {
-        max-width: 315px;
+        max-width: 330px;
     }
     .logo-title {
         font-size: 11px;
@@ -365,11 +374,12 @@
         padding: 47px 0 35px;
     }
     .help-h2 {
-        margin: 0 auto 30px;
+        margin: 0 auto 20px;
         text-align: center;
         font-size: 13px;
-        line-height: 25px;
+        line-height: 19px;
         max-width: 200px;
+
     }
     .help-text {
         text-align: center;
@@ -393,27 +403,27 @@
         padding: 0 0 25px;
     }
     .about {
-        padding: 25px 0 20px;
+        padding: 5px 0 0;
     }
     .about-title {
         display: flex;
         justify-content: center;
-        padding: 0 0 30px;
+        padding: 0;
     }
     .about-h2 {
         font-size: 19px;
     }
     .about-img {
-        width: 210px;
+        width: 260px;
     }
     .about-text {
-        max-width: 190px;
+        width: 230px;
+        left: 15px;
         top: 103px;
-        left: 35px;
     }
     .about-h3 {
         font-size: 12px;
-        max-width: 140px;
+        max-width: 150px;
         padding: 0 0 15px;
     }
     .about-text-img {
@@ -487,22 +497,45 @@
     }
     .header {
         text-align: center;
-        padding: 20px 0 40px;
+        padding: 0 0 40px;
+    }
+    .header-title {
+        padding: 10px 0;
     }
     .header-text-1 {
         display: none;
     }
     .header-h3 {
         font-size: 15px;
+        margin-bottom: 20px;
     }
     .header-text {
         margin:0 auto 20px;
+        font-size: 11px;
     }
     .header-photo {
-        width: 180px;
+        width: 150px;
     }
     .header-text-2 {
         display: block;
+    }
+    .header-h3-touch {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .header-text-li {
+        font-size: 11px;
+    }
+    .header-h3-services {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .header-login {
+        font-size: 11px;
+    }
+    .header-h3-we {
+        font-size: 15px;
+        margin-bottom: 20px;
     }
 
 
