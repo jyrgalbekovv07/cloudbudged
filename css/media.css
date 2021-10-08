@@ -337,9 +337,7 @@
     header {
         background: url("../images/Bg.png") center/cover;
     }
-    .container {
-        max-width: 320px;
-    }
+
     .col-6 {
         width: 100%;
     }
@@ -470,16 +468,16 @@
     }
     .why-url {
         width: 220px;
-        left: 35px;
+        left: 149px;
     }
     .why-url-1 {
         width: 180px;
-        left: 17px;
+        left: 134px;
         top: 41px;
     }
     .why-url-2 {
         width: 180px;
-        left: 91px;
+        left: 202px;
         top: 41px;
     }
     .contact {
