@@ -338,7 +338,7 @@
         background: url("../images/Bg.png") center/cover;
     }
     .container {
-        width: 320px;
+        width: 315px;
     }
     .col-6 {
         width: 100%;
@@ -470,17 +470,17 @@
     }
     .why-url {
         width: 220px;
-        left: 149px;
+        left: 37px;
     }
     .why-url-1 {
         width: 180px;
-        left: 134px;
-        top: 41px;
+        left: 20px;
+        top: 42px;
     }
     .why-url-2 {
         width: 180px;
-        left: 202px;
-        top: 41px;
+        left: 93px;
+        top: 39px;
     }
     .contact {
         text-align: center;
